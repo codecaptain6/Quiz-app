@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1 id="question"></h1>
+        <div class="options">
+          <div class="option">
+            <div class="name"></div>
+            <div class="cancel"><i class="fa-solid fa-times"></i></div>
+          </div>
+          <div class="option">
+            <div class="name"></div>
+            <div class="cancel"><i class="fa-solid fa-times"></i></div>
+          </div>
+          <div class="option">
+            <div class="name"></div>
+            <div class="cancel"><i class="fa-solid fa-check"></i></div>
+          </div>
+          <div class="option">
+            <div class="name"></div>
+            <div class="cancel"><i class="fa-solid fa-times"></i></div>
+          </div>
+        </div>
+        <div class="sub">
+          Your score is <span class="score">0</span>
+          <button id="prev-question" disabled>Previous</button>
+          <button id="next-question">Next</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
